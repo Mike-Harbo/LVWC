@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Las Vegas Wrestling Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #d91b1b;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 1rem;
+    }
+    header button {
+      background: white;
+      color: #d91b1b;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    header button:hover {
+      background: #f8c0c0;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #d91b1b;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .programs {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .program-card {
+      border-left: 5px solid #d91b1b;
+      padding-left: 1rem;
+      background: #fdf0f0;
+      border-radius: 5px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    @media (min-width: 700px) {
+      .programs {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .program-card {
+        flex: 1;
+        margin: 0 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Las Vegas Wrestling Club</h1>
+    <p>Masters & Veterans Wrestling | Freestyle & Greco-Roman Clinics</p>
+    <button onclick="location.href='#support'">Support Our Mission</button>
+  </header>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      Wrestling is more than a sport—it’s a way of life. We foster an inclusive, supportive community that builds discipline, resilience, and excellence through Olympic-style wrestling.
+    </p>
+  </section>
+
+  <section>
+    <h2>Who We Serve</h2>
+    <p>
+      Our primary focus is on Masters and Veterans wrestlers. We also welcome youth and elite competitors to our specialized clinics and camps.
+    </p>
+  </section>
+
+  <section>
+    <h2>Programs & Training</h2>
+    <div class="programs">
+      <div class="program-card">
+        <h3>Masters & Veterans Wrestling</h3>
+        <p>Lifelong athletes training and competing at the highest levels.</p>
+      </div>
+      <div class="program-card">
+        <h3>Clinics & Camps</h3>
+        <p>Featuring elite coaching with a focus on Freestyle and Greco-Roman styles.</p>
+      </div>
+      <div class="program-card">
+        <h3>Youth & Elite Development</h3>
+        <p>Specialized sessions for refining Olympic wrestling techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Choose LVWC?</h2>
+    <ul>
+      <li>Olympic Style Focus</li>
+      <li>Experienced Coaching Staff</li>
+      <li>Proven Track Record</li>
+      <li>Community-Focused Nonprofit</li>
+    </ul>
+  </section>
+
+  <section id="support">
+    <h2>Support Our Mission</h2>
+    <p>
+      We rely on your support to offer training and opportunities for athletes. Help us by donating, sponsoring, or volunteering.
+    </p>
+    <div class="cta">
+      <button onclick="location.href='mailto:[Insert Email]'">Donate Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Contact Us:</strong></p>
+    <p>
+      📍 [Insert Address] <br>
+      📧 [Insert Email] <br>
+      📞 [Insert Phone Number] <br>
+      🌐 [Insert Website URL] <br>
+      📱 Follow us on social media: [Insert Links]
+    </p>
+  </footer>
+</body>
+</html>
